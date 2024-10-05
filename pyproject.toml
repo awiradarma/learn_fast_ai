@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "learn-fast-ai"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+fastai = "^2.7.17"
+duckduckgo-search = "^6.2.13"
+fastcore = "^1.7.10"
+jupyter-contrib-nbextensions = "^0.7.0"
+jupyter-nbextensions-configurator = "^0.6.4"
+torchvision = "^0.19.1"
+opencv-python = "^4.10.0.84"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
